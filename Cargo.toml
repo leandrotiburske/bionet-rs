@@ -1,0 +1,18 @@
+[package]
+name = "bionet-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+approx = "0.5.1"
+csv = "1.3.0"
+ndarray = "0.16.1"
+ndarray-csv = "0.5.2"
+ndarray-stats = "0.6.0"
+petgraph = "0.6.5"
+polars = "0.43.1"
+polars-core = "0.43.1"
+polars-io = "0.43.1"
+rayon = "1.10.0"
+statrs = "0.15"
+
