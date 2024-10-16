@@ -16,4 +16,7 @@ fn main() {
     let mut network = CoexpressionNetwork::new();
     network.create_graph(corrected_corr, gene_names);
     println!("{:?}", network.network);
+
+    println!("{:?}", network.find_communities())
+
 }
